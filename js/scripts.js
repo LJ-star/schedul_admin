@@ -878,8 +878,5 @@ $(window).on('touchend', function()
 });
 $(window).on('touchmove', function(e)
 {
-    if (blockMenuHeaderScroll)
-    {
-        e.preventDefault();
-    }
+    e.preventDefault();
 });
